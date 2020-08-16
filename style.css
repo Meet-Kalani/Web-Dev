@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    letter-spacing: 1px;
+}
+
+small{
+    font-size: small;
+}
+
+body{
+    background: #4b1d3f;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.header{
+    height:100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.head-img{
+    border-radius: 10px;
+    box-shadow: 0px 20px 50px #d62246;
+}
+
+.content-img{
+    border-radius: 10px;
+}
+
+.skill,.projects,.about{
+    margin-bottom:100px;
+}
+
+.btn-custom{
+    background: #33658a;
+}
+
+.about-img{
+    width: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 0px 20px 40px #d62246;
+}
+
+.footer{
+    background: #d62246;
+}
+
+.skill1{
+    background: #2f4858;
+}
+
+.skill2{
+    background: #33658a;
+}
+
+.skill3{
+    background: #86bbd8;
+}
+
+.skill4{
+    background: #ec368d;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media(max-width:576px){
+    .head-text{
+        margin-top:30px;
+        margin-bottom:70px;
+    }
+
+    .skill,.projects,.about{
+        margin-bottom:30px;
+    }
+}
