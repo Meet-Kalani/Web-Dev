@@ -205,10 +205,6 @@
     <section>
         <p class="text-center mt-2">meetkalani2002@gmail.com</p>
     </section>
-    
-    <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -228,9 +224,6 @@
     </script>
     <script>
         $(document).ready(function () {
-            $(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
-});
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 120) {
                     $(".navbar").css({
