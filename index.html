@@ -226,12 +226,10 @@
         new WOW().init();
     </script>
     <script>
-        $(window).on("load",function(){
+        $(document).ready(function () {
+            $(window).on("load",function(){
      $(".loader-wrapper").fadeOut("slow");
 });
-    </script>
-    <script>
-        $(document).ready(function () {
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 120) {
                     $(".navbar").css({
