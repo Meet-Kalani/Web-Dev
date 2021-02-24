@@ -469,8 +469,8 @@ h2{
     .guide-text1,
     .guide-text2,
     .contact-form{
-        left:0;
-        right:0;
+        left:auto;
+        right:auto;
         transform: scale(0.5);
         animation-name: slideUp;
         animation-duration: 2s;
