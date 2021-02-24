@@ -463,7 +463,14 @@ h2{
     .skill1,
     .skill2,
     .skill3,
-    .skill4{
+    .skill4,
+    .yt1,
+    .yt2,
+    .guide-text1,
+    .guide-text2,
+    .contact-form{
+        left:0;
+        right:0;
         transform: scale(0.5);
         animation-name: slideUp;
         animation-duration: 2s;
@@ -471,17 +478,6 @@ h2{
         opacity:0;
     }
     
-    .yt1,
-    .yt2,
-    .guide-text1,
-    .guide-text2{
-        transform: scale(0.5);
-        animation-name: slideUp;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        opacity:0;
-    }
-
      .custom-card{
          width: 100% !important;
      }
