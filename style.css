@@ -23,7 +23,7 @@ body{
     left:-100px;
     animation-name: slideInLeft;
     animation-duration: 2s;
-    animation-delay: 6s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -32,7 +32,7 @@ body{
     right:-100px;
     animation-name: slideInRight;
     animation-duration: 2s;
-    animation-delay: 6s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity:0;
 }
